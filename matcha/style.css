@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@800&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+:root{
+	--verdeC:rgb(88,170,58);
+	--verdeF:rgb(18, 54, 68);
+}
+
+
+body{
+
+}
+
+header img{
+	width: 70px;
+	height: auto;
+}
+
+.botonVerdeC{
+	background-color: var(--verdeC);
+	color:black;
+	height: 40px;
+	width: 120px;
+	border:var(--verdeC) 10px;
+	border-radius:7px;
+}
+
+.font{
+	font-family: 'Alegreya', serif;
+    font-size: 50px;
+    color: var(--verdeF);
+
+}
+
+#subtitulo{
+	font-size: 70px;
+}
+
+.subtitulo{
+	font-size: 48px;
+}
+
+
+
+
+
