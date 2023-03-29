@@ -1,0 +1,57 @@
+body{
+	background-color: lightblue;
+	color: blue;
+}
+
+p{
+	background-color:rgba(255, 58, 15, .2);
+	border: 10px blue solid;
+	/*
+	border-width: 10px;
+	border-color: red;
+	border-style: solid;
+	*/
+	padding: 10px 20px;
+	/*
+	padding-top: 10px;
+	padding-right: 20px;
+*/
+	margin: 30px 50px;
+}
+
+
+.parrafo-azul{
+	background-color: blue;
+	color:white;
+
+}
+
+h1{
+	font-size: 50px;
+	background-color: yellow;
+	color: red;
+}
+
+h2{
+	font-size: 30px;
+	background-color: yellow;
+	color: red;
+
+}
+
+
+h1,h2,h3{
+	background-color: yellow;
+	color: red;
+
+}
+
+em{
+	color: yellow;
+}
+
+div p em{
+	color: red;
+	
+}
+

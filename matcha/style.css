@@ -3,6 +3,9 @@
 :root{
 	--verdeC:rgb(88,170,58);
 	--verdeF:rgb(18, 54, 68);
+	--boton:rgb(10,64,69);
+	--botonHover:rgb(10,64,69);
+
 }
 
 
@@ -15,6 +18,51 @@ header img{
 	height: auto;
 }
 
+.boton{
+	color: white;
+	height: 50px;
+	width: 120px;
+	border-radius: 7px;
+	font-size: 16px;
+}
+
+header{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin:20px;
+	padding: 10px 5px;
+	align-items: center;
+
+}
+
+nav{
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 17px;
+}
+
+/*botones*/
+nav a{
+	color:var(--boton);
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #9b9b9b;
+}
+
+aside a{
+	color:var(--boton);
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+aside a:hover{
+	color: #9b9b9b ;
+}
+
 .botonVerdeC{
 	background-color: var(--verdeC);
 	color:black;
@@ -22,6 +70,7 @@ header img{
 	width: 120px;
 	border:var(--verdeC) 10px;
 	border-radius:7px;
+	font-size: 20px;
 }
 
 .font{
@@ -39,6 +88,33 @@ header img{
 	font-size: 48px;
 }
 
+.segundaseccion{
+	text-align: center;
+	margin: 90px;
+}
+
+.segundaseccion p{
+	font-family: 'Alegreya', serif, ;
+	font-size: 20px;
+
+}
+
+.butVerdeF{
+	background-color: rgb(10,64,69);
+	border: rgb(10,64,69);
+	border-top-left-radius: 0;
+ 	border-bottom-left-radius: 0;
+}
+
+input{
+	height: 47px;
+	width:200 ;
+	border-radius: 7px 7px 0px 7px;
+	border: 1px #9b9b9b solid;
+	margin-right: -10px;
+
+
+}
 
 
 
