@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@800&family=Montserrat:wght@100;200;300;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family:Montserrat ;
+}
+
+header{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 40px;
+}
+
+header img{
+	width:15% ;
+
+}
+
+nav{
+	width: 48%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+nav a{
+	font-size: 20px;
+	text-decoration: none;
+	font-family: "Montserrat";
+	color: black;
+
+
+}
+
+.sec1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+	background-size: cover;
+	background-image:url(https://raw.githubusercontent.com/valjime95/Ejercicios_Web/master/spotify/code/img/landing.jpeg);
+	color: white;
+	text-align: center;
+	
+
+}
+
+.sec1 h1{
+	font-size: 100px;
+	font-weight: 600;
+}
+
+.sec1 p{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 300;
+}
+
+/*
+.sec2{
+	height: 400px;
+	width: 50px;
+	
+}
+*/
+
+.sec2 h2{
+	font-size: 40px;
+	font-weight: 600;
+	text-decoration: underline solid green;
+	text-decoration-thickness: 4px;
+	text-decoration-offset:10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.columnas{
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+	padding-top:70px;
+}
+
+.flexsec{
+	text-align: center;
+	
+	
+}
+
+.flexsec img{
+	height:100px;
+
+}
+
+.flexsec h6{
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(47, 177, 88);
+}
+
+.flexsec p{
+	font-size: 20px;
+	font-size: 100;
+}
+
+.sec3{
+	background-color:rgb(47, 177, 88) ;
+	background-image: url(https://raw.githubusercontent.com/valjime95/Ejercicios_Web/master/spotify/code/img/spotify-icon-white.png);
+	background-repeat: no-repeat;
+	margin: 50px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 100px;
+	height: 700px;
+
+}
+
+.sec3 img{
+	height:75%;
+
+}
+
+
+.sec3 h1{
+	font-size: 40px;
+	text-decoration: underline;
+	text-decoration-thickness:3px;
+	text-undeline-offset:8px;
+
+}
+
+.sec3 h2 {
+	font-size: 30px;
+}
+
+.sec3 p{
+	font-size: 20px;
+	font-weight: 100;
+}
+
