@@ -1,0 +1,33 @@
+body{
+	
+}
+
+.contenedor-padre{
+	background-color: lightblue;
+	padding: 10px;
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	gap: 10px 20px;
+}
+
+.contenedor-padre div{
+	background-color: yellow;
+	border: 1px grey solid;
+	font-size: 30px;
+	text-align: center;
+}
+
+.item1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.item4{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-column-start: 3;
+	grid-column-end: span 3;
+
+}

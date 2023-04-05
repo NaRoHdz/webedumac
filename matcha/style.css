@@ -116,6 +116,22 @@ input{
 
 }
 
+.sec3{
+	display: flex;
+	flex-direction: row;
+	background-color: red;
+	
+}
+
+.sec3 article{
+	width: 40%;
+	margin-left: 25px;
+}
+
+.video{
+	width: 40%;
+}
+
 
 
 
