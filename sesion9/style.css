@@ -1,0 +1,11 @@
+
+
+.logo{
+	height: 50px;
+}
+
+/*los cambios que le queramos hacer a bootstrap se pueden hacer sobre escribiendo el codigo con nuestra propia hoja de estilo y con el nombre del mismo class*/
+.navbar-nav .nav-link.active{
+	color: red;
+}
+
